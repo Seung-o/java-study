@@ -1,2 +1,3 @@
 # java-study
-Study for java
+
+It is repository for studying basic java language.
