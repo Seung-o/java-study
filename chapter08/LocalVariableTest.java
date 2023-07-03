@@ -6,6 +6,6 @@ public class LocalVariableTest {
 
         System.out.println(str);
 
-        str = 3; // occurs error
+        // str = 3; occurs error
     }
 }
