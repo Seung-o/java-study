@@ -9,6 +9,7 @@ public class Customer {
     double bonusRatio; // 인스턴스 변수는 자동으로 초기화 ( 0.0 )
 
     public Customer() {
+        System.out.println("Customer() invoked");
         this.customerGrade = "SILVER";
         bonusRatio = 0.01;
     }
