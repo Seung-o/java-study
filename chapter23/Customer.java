@@ -5,11 +5,16 @@ public class Customer {
     protected String customerName;
     protected String customerGrade;
 
+    double salesRatio;
+
+
     int bonusPoint; // 인스턴스 변수는 자동으로 초기화 ( 0 )
     double bonusRatio; // 인스턴스 변수는 자동으로 초기화 ( 0.0 )
 
-    public Customer() {
+    public Customer(int customerId, String customerName) {
         System.out.println("Customer() invoked");
+        this.customerId = customerId;
+        this.customerName = customerName;
         this.customerGrade = "SILVER";
         bonusRatio = 0.01;
     }

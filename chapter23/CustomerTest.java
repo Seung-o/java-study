@@ -5,9 +5,7 @@ public class CustomerTest {
     public static void main(String[] args) {
         int price = 10000;
 
-        Customer customerLee = new Customer();
-        customerLee.setCustomerId(1000);
-        customerLee.setCustomerName("이순신");
+        Customer customerLee = new Customer(1000, "이순신");
         customerLee.bonusPoint = 1000;
         customerLee.showCustomerInfo();
         int costForLee = customerLee.calcPrice(price);

@@ -2,9 +2,9 @@ package chapter23;
 
 public class VipCustomer extends Customer {
     private int agentId = 0;
-    double salesRatio;
 
     public VipCustomer(int customerId, String customerName) {
+        super(customerId, customerName);
         System.out.println("VipCustomer() invoked");
         this.customerId = customerId;
         this.customerName = customerName;
